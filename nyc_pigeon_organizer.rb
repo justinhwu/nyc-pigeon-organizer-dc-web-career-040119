@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
         hash[e][a]<< c
       end
     end
+    end
   end
   hash
 end
