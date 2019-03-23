@@ -7,4 +7,7 @@ def nyc_pigeon_organizer(data)
         hash[e] = {}
         hash[e][a] = []
         hash[e][a]<< c
+      end
+    end
+  end
 end
