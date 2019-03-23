@@ -3,7 +3,5 @@ def nyc_pigeon_organizer(data)
   hash = {}
   data.each do |a,b|
     b.each do |c,d|
-      if 
-      hash["#{c}"] =   
-    
+      c.
 end
