@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
         hash[e][a] = []
       end
       if !hash[e][a].include?(c)
-        hash[e][a]<< c
+        hash[e][a]<< c.to_s
       end
     end
     end
