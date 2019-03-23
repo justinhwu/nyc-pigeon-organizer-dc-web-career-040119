@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each do |a,b|
     b.each do |c,d|
       d.each do |e|
-      if !hash.has_key?(name)
+      if !hash.has_key?(e)
         hash[e] = {}
       end
       if !hash[e].has_key?(a)
