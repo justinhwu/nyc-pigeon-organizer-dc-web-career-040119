@@ -4,13 +4,13 @@ def nyc_pigeon_organizer(data)
   data.each do |a,b|
     b.each do |c,d|
       d.each do |e|
-      if hash.has_key?(name)
+      if !hash.has_key?(name)
         hash[e] = {}
       end
-      if hash[e].has_key?(a)
+      if !hash[e].has_key?(a)
         hash[e][a] = []
       end
-      if hash[e][a].include?(c)
+      if !hash[e][a].include?(c)
         hash[e][a]<< c
       end
     end
