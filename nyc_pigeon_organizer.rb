@@ -5,5 +5,6 @@ def nyc_pigeon_organizer(data)
     b.each do |c,d|
       d.each do |e|
         hash[e] = {}
-        hash [e][a] =  
+        hash [e][a] = []
+        
 end
