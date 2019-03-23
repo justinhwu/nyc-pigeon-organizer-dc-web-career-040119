@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
       d.each do |e|
       if hash.has_key?(name)
         hash[e] = {}
+      end
         hash[e][a] = []
         hash[e][a]<< c
       end
